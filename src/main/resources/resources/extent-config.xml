@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+
+        <theme>standard</theme>
+        <encoding>UTF-8</encoding>
+        <protocol>https</protocol>
+        <documentTitle>Vagrant Automation Test Report</documentTitle>
+        <reportName>Vagrant Automation Test Report</reportName>
+        <testViewChartLocation>bottom</testViewChartLocation>
+        <timeStampFormat>yyyy MMM dd HH:mm:ss</timeStampFormat>
+        <enableCategoryView>true</enableCategoryView>
+        <enableAuthorView>false</enableAuthorView>
+        <enableExceptionView>true</enableExceptionView>
+        <enableTestRunnerLogsView>true</enableTestRunnerLogsView>
+
+        <scripts>
+            <![CDATA[
+                $(document).ready(function() { });
+            ]]>
+        </scripts>
+        <styles>
+            <![CDATA[
+            ]]>
+        </styles>
+    </configuration>
+</extentreports>
